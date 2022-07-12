@@ -4,14 +4,44 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="icon" href=""/>
+      <link rel="stylesheet" href="style.css">
+      <title>Apsan's Homepage </title>
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+  <div class="welcome-container">
+      <div class="welcome-containerimg"></div>
+      <div class="welcome-containertitle">
+    <h1 class="welcome-title">Apsan Century</h1>
+    <h3 class="welcome-latest">Latest: </h3>
+    <ul class="welcome-latest-items">
+        <li class="welcome-latest-item">
+            <a href="#"> Save Soil! </a>
+        </li>
+        <li class="welcome-latest-item">
+    <a href="#">Bipul Chettri - Junkeri Cover Video </a>
+        </li>
+        <li class="welcome-latest-item">
+            <a href="#">Why I love Vim! </a> 
+        </li>
+    </ul>
+      </div>
+    <div class="welcome-footer">
+        <ul class="welcome-footer__items">
+            <li class="welcome-footer__item">
+            <a href="https://github.com/apsanedu">Github! </a>
+            </li>
+            <li class="welcome-footer__item">
+            <a href="https://www.youtube.com/channel/UCb80-eeczXJYY-y8XjVp-Lg/featured">Youtube!</a>
+            </li>
+            <li class="welcome-footer__item">
+                <h4>Scroll down to continue!</h4>
+            </li>
+            
+    </div>
+  </div>
+    <div id="app">
+
+    </div>
   </body>
 </html>
