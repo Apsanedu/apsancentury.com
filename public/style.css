@@ -1,5 +1,4 @@
-body {
-    font-family: "courier new", monospace;
+body {font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     margin: 0;
 }
 
@@ -15,16 +14,17 @@ body {
     padding-top: 26vh;
 }
 .welcome-containertitle {
-    background-color: rgba(200, 200, 255, 0.5);
+    background-color: rgba(185, 171, 171, 0.5);
     display: inline-block;
-    padding: 0 30px;
+    padding: 50px 50px;
     margin: 0 30vw;
 }
 
 .welcome-title {
-    font-size: 3rem;
+    display: block;
+    height: auto;
+    width: 490px;
     /* padding-top: 30vh;*/
-    text-align: center;
     padding: 0px;
 }
 

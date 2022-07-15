@@ -20,3 +20,9 @@ The designs were created to the following widths:
 
 ### Fonts
 - Family: [Ubuntu] 
+
+
+## Links
+
+- Color or background of the text changes and underline on hover.
+
