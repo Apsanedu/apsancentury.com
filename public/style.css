@@ -1,3 +1,4 @@
+/*systemfontstack.com*/
 body {font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     margin: 0;
 }
@@ -5,7 +6,7 @@ body {font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman
 .welcome-container {
     margin: 0;
     height: 97vh;
-    background-image: url("bg-art.png");
+    background-image: url("image5-edi.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -25,7 +26,7 @@ body {font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman
     height: auto;
     width: 490px;
     /* padding-top: 30vh;*/
-    padding: 0px;
+    padding: 0;
 }
 
 .welcome-latest {
@@ -35,12 +36,12 @@ body {font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman
  
 .welcome-latest-items {
     text-align: center;
-    padding: 0px;
+    padding: 0;
 }
 
 .welcome-latest-item a{
     font-size: 1.5rem;
-    padding: 0px;
+    padding: 0;
     color: black;
     text-decoration: none;
 }
@@ -50,13 +51,13 @@ body {font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman
     position: absolute;
     width: 100%;
     height: 4rem;
-    bottom: 0%;
+    bottom: 0;
 
 }
 
 .welcome-footer {
     position: absolute;
-    bottom: 0%;
+    bottom: 0;
     right: 5%;
 }
 
@@ -72,7 +73,7 @@ body {font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman
     margin: 0;
 
     padding: 0 0 0 3vw;
-    bottom: 0%;
+    bottom: 0;
     font-size: 1.2rem;
 }
 
@@ -85,14 +86,26 @@ body {font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman
     color: cyan;
 }
 
-.text-title {
+.about-me__title{
     font-size: 2.5rem;
+    position: absolute;
+    left: 20vw;
 }
 
+.about-me {
+}
 .about-me__profile {
-    height: 100px;
-    width: auto;
+    height: 400px;
+    padding: 5px 5vw 20px 10vw;
+}
+
+.about-me__text {
+    font-size: 1rem;
+    display: inline-block;
+    position: absolute;
 }
 .about-me__background {
     background: rgba(185, 171, 171, 0.5);
+    padding: 10vh 5vw;
 }
+
